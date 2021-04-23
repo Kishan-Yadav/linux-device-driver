@@ -1,4 +1,5 @@
-obj-m += hello_world_module.o
+obj-m+= char_driver.o
+
 KDIR = /lib/modules/$(shell uname -r)/build
 
 all:
